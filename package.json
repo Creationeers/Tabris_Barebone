@@ -1,0 +1,23 @@
+{
+  "main": "dist",
+  "private": true,
+  "scripts": {
+    "test": "npm run build && npm run lint",
+    "lint": "tslint --project . -t verbose",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w --preserveWatchOutput --inlineSourceMap",
+    "start": "tabris serve -a -w"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "buffer": "^5.4.2",
+    "cordova-plugin-locationservices": "^2.1.0",
+    "js-base64": "^2.5.1",
+    "tabris": "~3.1.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.19.0",
+    "typescript": "~3.3.4000"
+  }
+}

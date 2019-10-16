@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="TheEny53.surveymanager" version="0.1.0">
+  <name>Survey Manager</name>
+  <description>
+    Example Tabris.js App
+  </description>
+  <author email="enzo.hilzinger@sap.com">
+    Enzo Hilzinger
+  </author>
+  <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+</widget>

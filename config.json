@@ -1,0 +1,16 @@
+{
+    "api_url": "https://survey-manager-be.herokuapp.com/",
+    "auth_header_prefix": "Bearer  ",
+    "token_obtain_url": "auth/token/",
+    "register_url": "register/",
+    "fonts": {
+        "font_large": "normal thin 32px sans-serif",
+        "font_info": "normal thin 20px sans-serif"
+    },
+    "colors":{
+        "color_heading": [235, 163, 56],
+        "color_action": [235, 143, 52],
+        "color_info": [235, 98, 52],
+        "color_success": [38, 191, 41]
+    }
+}
